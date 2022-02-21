@@ -1,0 +1,47 @@
+.lochness{
+    position: absolute;
+    background-color: rgba(240, 255, 255, 0.13);
+    top: 50vmin;
+    left: 40vmin;
+  
+}
+.lochness .head{
+      z-index: 1;
+    position: absolute;
+    
+    top: 12vmin;
+    left: 13vmin;
+}
+.lochness .head::before{
+    content: '';
+        content: '';
+     position: absolute;
+     background-color: #166434;
+    
+      border-radius: 20px;
+width: 5vmin;
+    height: 8vmin;
+}
+
+
+
+.lochness .snake-body{
+    
+    box-shadow: 0 0 0 px #333;
+   content:'';
+   width: 50px;
+    height: 65px;
+    border-top-left-radius: 460px;
+    border-top-right-radius: 460px;
+	 border-left: 30px solid #167440; 
+   border-right: 30px solid #14914c ; 
+  border-top: 30px solid #0a803f;  
+	
+    border-bottom: 0;
+ border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    
+    overflow:hidden;
+    position:absolute;
+}
+

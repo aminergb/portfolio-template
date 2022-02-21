@@ -1,0 +1,10 @@
+.sky{
+    position: relative;
+    width:100vmax ;
+    height: 50vmin ;
+    
+    left: 0;
+    right: 0;
+    background:linear-gradient(#d63c15c0,#91195b );
+    -webkit-box-reflect: below 0 linear-gradient(transparent,rgba(0,0,0,1)) ;
+}

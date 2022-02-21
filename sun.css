@@ -1,0 +1,26 @@
+.sun{
+   background-color:#ca3b10;
+
+   position: absolute;
+    left: 45vmax;
+    top: 20vmin;
+    width: 15vmin;
+    height: 15vmin;
+    border-radius: 100%;
+  
+    animation: 5s ease-in-out infinite ;
+}
+@keyframes sunset {
+    0%{
+          box-shadow: 0px 0px 150px 90px #af481f,inset 0px -45px 45px 0px #e76241c0;
+transform: translateY(210%);
+    }
+    50%{
+transform: translateY(-50%);
+	 background-color:#e69215;
+ box-shadow: 0px 0px 150px 90px #d8c411,inset 0px -8px 25px -5px #e75d0de8;
+    }
+    100%{
+transform: translateY(210%);
+    }
+}

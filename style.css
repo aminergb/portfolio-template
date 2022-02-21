@@ -8,32 +8,8 @@
     width: 100%;
     height: 100%;
 }
-.sun{
-    background: linear-gradient(#e76241c0,#ca3b10 );
-    position: absolute;
-    left: 45vmax;
-    top: 20vmin;
-    width: 15vmin;
-    height: 15vmin;
-    border-radius: 100%;
-    box-shadow: 5px 5px 5px #91195b,
-    inset -22px 0px 5px #ffffff00;
-}
 
-.sky{
-    width:100% ;
-    height: 50% ;
-    
-    left: 0;
-    right: 0;
-    background:linear-gradient(#d63c15c0,#91195b );
-    -webkit-box-reflect: below 0vmin linear-gradient(transparent,rgba(0,0,0,0.7)) ;
-}
-.water{
-    background:linear-gradient(#b6317a,#e05937c0 );
-    width:100vmax ;
-    height: 50vmin ;
-}
+
 
 
 .wave{
@@ -45,7 +21,5 @@
        top: 60vmin;
         border-radius: 100px;
 
-  
- -webkit-box-reflect: below 0vmin linear-gradient(transparent,rgba(0,0,0,0.7)) ; 
 
 }

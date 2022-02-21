@@ -1,22 +1,28 @@
+.boat{
+  position: absolute;
+  top: 50vmin;
+  left: 20vmin;
+  animation: floka_move 5s ease-in-out forwards infinite alternate ;
+}
 .floka{
-      box-shadow: inset 0px 5px 1px #963d22d2,
+  z-index: 1;
+      box-shadow: inset 0px 5px 1px #963d22,
       inset 0px 14px 1px  #a73c1cc2,
       inset 0px 18px 0px  #532405d0;
-    z-index: 10;
       position: absolute;
-     background-color: #91351eee;
+     background-color: #91351e;
   width: 20vmin;
    height: 3vmin;  
-      left: 15vmin;
-       top: 60.2vmin;
+      left: 0vmin;
+       top: 0vmin;
    border-radius: 0px 10px 100px 100px;
  -webkit-box-reflect: below 0 linear-gradient(transparent,rgba(0,0,0,1)) ;
-animation: floka_move 5s ease-in-out forwards infinite alternate ;
+
 }
 .log{
     z-index: 0;
       position: absolute;
-     background-color: #91351eee;
+     background-color: #91351e;
   width: 1vmin;
    height: 14vmin;  
       left: 9vmin;
@@ -76,8 +82,8 @@ animation: floka_move 5s ease-in-out forwards infinite alternate ;
     height: 2vmin;
 z-index: 0;
    
-    top: 62.4vmin;
-    left: 14vmin;
+    top: 2vmin;
+    left: 0vmin;
     border: .2vmin solid #88215a;
     background-color: #88215a2a;
   border-radius:  41% 59% 82% 18% / 49% 51% 49% 51% ;
@@ -89,13 +95,14 @@ animation: drop_animation 3s  ease-in-out forwards infinite;
     height: 2vmin;
 z-index: 0;
    
-    top: 62.4vmin;
-    left: 14vmin;
+    top: 2vmin;
+    left: 0vmin;
     border: .2vmin solid #88215a;
     background-color: #88215a2a;
   border-radius:  41% 59% 82% 18% / 49% 51% 49% 51% ;
-animation: drop_animation 4s  ease-in-out forwards infinite;
+animation: drop_animation_big 4s  ease-in-out forwards infinite;
 }
+
 .log_flag{
     z-index: 1;
           position: absolute;
@@ -125,6 +132,8 @@ background-color: #bb8d6e;
  -webkit-box-reflect: below 8vmin linear-gradient(transparent,rgba(0,0,0,0.7)) ; 
 animation: flag_move 2s linear forwards infinite alternate;
 }
+
+  
 @keyframes flag_move {
     0%{
       transform: rotateY(0deg) rotateX(-5deg) ;
@@ -156,6 +165,16 @@ animation: flag_move 2s linear forwards infinite alternate;
     }
     100%{
  transform: scale(1.6);
+ opacity: 10%;
+    }
+}
+@keyframes drop_animation_big {
+    0%{
+        transform: scale(0);
+        opacity: 100%;
+    }
+    100%{
+ transform: scale(1.8);
  opacity: 10%;
     }
 }

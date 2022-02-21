@@ -4,7 +4,7 @@
          position: absolute;
    width: 20vmin;
    height: 20vmin;
-    left: 10vmax;
+    left: 10vmin;
     top: 30vmin;
    
 
@@ -17,7 +17,7 @@ clip-path: polygon(99% 97%, 93% 94%, 88% 89%, 84% 87%, 81% 83%, 77% 81%, 75% 77%
          position: absolute;
    width: 20vmin;
    height: 20vmin;
-    left: 85vmax;
+    left: 85vmin;
     top: 30vmin;
    
 
