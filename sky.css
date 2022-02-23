@@ -2,9 +2,20 @@
     position: relative;
     width:100vmax ;
     height: 50vmin ;
-    
+    overflow: hidden;
     left: 0;
     right: 0;
-    background:linear-gradient(#d63c15c0,#91195b );
+    background:linear-gradient( #e28203b9 ,#ca7220c0,#e63c12c0,#d31545e0 );
     -webkit-box-reflect: below 0 linear-gradient(transparent,rgba(0,0,0,1)) ;
+animation: skynight 1s ease-in-out infinite alternate ;
+}
+@keyframes skynight {
+  0%{
+ background-position-y:center
+  }
+  100%{
+        background-position-y: top;
+  }
+
+    
 }

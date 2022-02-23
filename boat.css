@@ -1,6 +1,6 @@
 .boat{
   position: absolute;
-  top: 50vmin;
+  top: 70vmin;
   left: 20vmin;
   animation: floka_move 5s ease-in-out forwards infinite alternate ;
 }

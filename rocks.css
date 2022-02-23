@@ -1,0 +1,48 @@
+.rock.rc1{
+    z-index: 15;
+    position: absolute;
+    background-color: rgb(63, 18, 59);
+    box-shadow: inset 5px 10px 20px 5px #4e0934;;
+    width: 25vmin;
+    height: 25vmin;
+    top: 75vmin;
+    left: 0vmin;
+    border-radius: 39% 61% 70% 30% / 47% 57% 43% 53% ;
+
+}
+.rock.rc2{
+    z-index: 15;
+    position: absolute;
+    background-color: rgb(63, 18, 59);
+    box-shadow: inset 5px 10px 20px 5px #4e0934;;
+    width: 15vmin;
+    height: 15vmin;
+    top: 85vmin;
+    left: 20vmin;
+    border-radius: 56% 44% 63% 37% / 49% 39% 61% 51% ;
+
+}
+.rock.rc3{
+    z-index: 15;
+    position: absolute;
+    background-color: rgb(63, 18, 59);
+    box-shadow: inset 5px 10px 20px 5px #4e0934;;
+    width: 15vmin;
+    height: 15vmin;
+    top: 85vmin;
+    right:0vmin;
+    border-radius: 56% 44% 63% 37% / 49% 39% 61% 51% ;
+}
+.rock.rc4{
+    z-index: 11;
+    position: absolute;
+    background-color: rgb(63, 18, 59);
+    box-shadow: inset 5px 10px 20px 5px #4e0934;;
+    width: 25vmin;
+    height: 25vmin;
+    bottom: 0vmin;
+    right:2vmin;
+    transform: rotate(180deg);
+border-radius: 63% 37% 60% 40% / 30% 50% 50% 70%
+
+}
